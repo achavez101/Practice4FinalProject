@@ -1,0 +1,159 @@
+body{
+    background-image: url("/Day5/image/backgroundMount.jpg");
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    color: yellow;
+    background-color: blue;
+    text-align: center;
+    font-size: 50px;
+    /*1st parameter 
+        is right side if positive
+        is left side if negative*/
+    /*2nd parameter 
+        is bottom if positive
+        is top if negative*/
+    text-shadow: 5px 5px purple;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+nav{
+    position:-webkit-sticky;
+    position: sticky;
+    top: 58px;
+    background-color: blue;
+    text-align: center;
+    font-size: 20px;
+    /*order is top right left bottom*/
+    padding: 15px 15px 15px 15px;
+}
+nav li{
+    /*gets rid of bullet points*/
+    list-style-type: none;
+    /*displays navbar lettering horizontally*/
+    display: inline;
+    /*order is top right left bottom*/
+    padding: 10px 10px 10px 10px;
+    text-decoration: underline overline dotted purple;
+}
+/*when link has been visited*/
+nav a:visited{
+    color: yellow;
+}
+/*when link has not been visited yet*/
+nav a:link{
+    color: yellow;
+    text-decoration-line: underline overline;
+    text-decoration-style: dotted;
+}
+/*when hovering over any of the navbar links*/
+nav a:hover{
+    background-color: cyan;
+}
+/*when switching over to a page and that page is active, color shows*/
+nav a:active{
+    color:purple;
+}
+/*section titled Traditional Wedding Cakes*/
+section{
+    background-color: #D0A48B;
+    /*aligning text to the left side*/
+    text-align: left;
+    /*spacing on top of box*/
+    margin-top: 50px;
+    /*padding on top of writing*/
+    padding-top: 10px;
+    /*padding on left of writing*/
+    padding-left: 10px;
+    /*padding on bottom of writing*/
+    padding-bottom: 10px;
+}
+aside{
+    /*content floats to the right side of the page*/
+    float: right;
+    /*padding on the right*/
+    padding-right: 15px;
+}
+aside img{
+    height: 400px;
+    width: 400px;
+    /*width style color*/
+    border: 5px dotted aqua;
+    /*border-width: 5px;
+    border-style: dotted;
+    border-color: aqua;*/
+}
+aside h3{
+    background-color: aqua;
+    color: blue;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+aside button{
+    background-color: cyan;
+    color: blue;
+}
+article{
+    float: left;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+article h3:hover{
+    color: limegreen;
+}
+article h3{
+    background-color: aqua;
+    color: blue;
+    /*top right bottom left*/
+    padding: 15px 15px 15px 15px;
+}
+article iframe{
+    border: 5px dotted aqua;
+}
+.BakeShop{
+    background-color: #D0A48B;
+    margin-bottom: 15px;
+}
+figure img{
+    height: 500px;
+    width: 500px;
+    float: left;
+    /*1st parameter 
+        is right side if positive
+        is left side if negative*/
+    /*2nd parameter 
+        is bottom if positive
+        is top if negative*/
+    box-shadow: 5px 10px cyan;
+    margin-bottom: 25px;
+}
+figcaption{
+    padding-left: 150px;
+    padding-top: 150px;
+    float: left;
+    color: blue;
+    font-size: 45px;
+}
+footer{
+    position: sticky;
+    bottom: 0;
+    clear: both;
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    color: yellow;
+    text-align: center;
+    padding-top: 15px;
+}
+footer a:visited{
+    color: yellow;
+}
+footer a:link{
+    color: yellow;
+    text-decoration: none;
+}
+footer a:hover{
+    color: cyan;
+}
