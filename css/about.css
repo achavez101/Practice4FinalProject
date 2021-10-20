@@ -13,6 +13,7 @@ header{
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
+    letter-spacing: 50px;
 }
 nav{
     position:-webkit-sticky;
@@ -69,6 +70,9 @@ nav a:active{
     border-width: 8%;
     background-color: yellow;
     padding: 10px;
+    font-family: 'Noto Sans Mono', monospace;
+    text-align: left;
+    line-height: 2;
 }
 .column2{
     float: left;
@@ -81,6 +85,9 @@ nav a:active{
     border-width: 8%;
     background-color: yellow;
     padding: 10px;
+    font-family: 'Noto Sans Mono', monospace;
+    text-align: right;
+    line-height: 2;
 }
 .row{
     display: table;
@@ -90,8 +97,9 @@ nav a:active{
 }
 .column{
     /*font change to festive*/
-    font-family: 'Festive', cursive;
+    /*font-family: 'Festive', cursive;*/
     padding: 15px 15px 15px 15px;
+    font-weight: 900;
 }
 .left, .middle{
     float: left;
@@ -107,6 +115,15 @@ nav a:active{
     width: 30%;
     box-sizing: border-box;
     border: 3px solid seagreen;
+}
+.left{
+    text-align: left;
+}
+.middle{
+    text-align: center;
+}
+.right{
+    text-align: right;
 }
 col{
     width: 100%;

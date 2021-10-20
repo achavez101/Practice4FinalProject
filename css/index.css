@@ -18,6 +18,10 @@ header{
     position: sticky;
     top: 0px;
 }
+.fa-amazon{
+    background: none;
+    color: yellow;
+}
 nav{
     position:-webkit-sticky;
     position: sticky;
@@ -54,6 +58,11 @@ nav a:hover{
 /*when switching over to a page and that page is active, color shows*/
 nav a:active{
     color:purple;
+}
+nav i{
+    font-size: 100px;
+    float: left;
+    margin-top: -70px;
 }
 /*section titled Traditional Wedding Cakes*/
 section{
