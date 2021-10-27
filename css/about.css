@@ -1,3 +1,13 @@
+body{
+    background-image: linear-gradient(to top left, #e0ed6d, #bced6d, #82ed6d, #6dedbe, #6de2ed, #6d98ed);
+}
+header a:link{
+    color: yellow;
+    text-decoration: none;
+}
+header a:visited{
+    color: yellow;
+}
 header{
     color: yellow;
     background-color: blue;
@@ -14,6 +24,10 @@ header{
     position: sticky;
     top: 0px;
     letter-spacing: 50px;
+}
+.fa-amazon{
+    background: none;
+    color: yellow;
 }
 nav{
     position:-webkit-sticky;

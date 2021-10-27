@@ -1,6 +1,14 @@
 body{
-    background-image: url("/Day5/image/backgroundMount.jpg");
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to bottom left, #e0ed6d, #bced6d, #82ed6d, #6dedbe, #6de2ed, #6d98ed);
+    /*background-image: url("/Day5/image/backgroundMount.jpg");*/
+    /*font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+}
+header a:link{
+    color: yellow;
+    text-decoration: none;
+}
+header a:visited{
+    color: yellow;
 }
 header{
     color: yellow;
@@ -17,6 +25,7 @@ header{
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
+    letter-spacing: 50px;
 }
 .fa-amazon{
     background: none;
@@ -40,6 +49,13 @@ nav li{
     /*order is top right left bottom*/
     padding: 10px 10px 10px 10px;
     text-decoration: underline overline dotted purple;
+}
+nav img{
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-top: -70px;
+    border-radius: 50%;
 }
 /*when link has been visited*/
 nav a:visited{
@@ -144,6 +160,31 @@ figcaption{
     float: left;
     color: blue;
     font-size: 45px;
+}
+.record{
+    background-color: blue;
+    height: 400px;
+    width: 400px;
+    clear: both;
+    float: left;
+    margin-left: 500px;
+}
+.figg{
+    color: blue;
+    float: left;
+    font-size: 25px;
+    padding: 15px;
+    margin-top: 150px;
+}
+.onceagain {
+    background-color: blue;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.wedding{
+    clear: both;
+    float: right;
+    margin-bottom: 50px;
 }
 footer{
     position: sticky;
